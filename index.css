@@ -1,0 +1,165 @@
+.input-box .button {
+  background: linear-gradient(to bottom, white, #FFA500);
+  color: white;
+  border: none;
+  padding: 30px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:16px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.main-container{
+  
+}
+
+
+
+.box h1{
+  margin: 50px;
+  padding: 0 10px 10px 10px;
+  font-size: 80px;
+  color: rgb(30, 80, 6);
+  text-align: center;
+}
+
+
+
+.box .input-box{
+  position: relative;
+}
+
+
+/*registration*/
+
+body {
+  font-family: Arial;
+  font-size: 20px;
+  padding: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; 
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: 252525;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text],input[type=number] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color:rgb(221, 164, 48);
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color:rgb(221, 164, 48);
+}
+
+a {
+  color: #2196F3;
+
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+#content{
+  width: 50%;
+  margin: 20px auto;
+  border:1px solid #cbcbcb;
+}
+
+form{
+  width: 40%;
+  margin: 20px auto;
+}
+form div{
+  margin-top: 5px;
+}
+.input-box
+{
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+}
+.footer
+{
+  display: flex;
+  justify-content: center;
+}
